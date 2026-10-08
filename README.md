@@ -112,3 +112,4 @@ This codebase has the right service boundaries. The following still has to chang
 | Accounts | Username + password (no email or other personal data) | Password reset, OAuth |
 | Ops | `run.py` | TLS (`wss://`), containers, metrics (fps, RTT, drops per session), central logs, abuse limits |
 | Content | Your own games | Publisher licensing deals, or bring-your-own-library (Steam) integration |
+Also if you are on Linux it won't be able to play games with EAC(easy anti-cheat) because I couldn't find a way to make it be like other cloud gaming services, so if you find a way to make it run these game let me know.
